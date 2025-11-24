@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creovyn Realty | Premium Property Investment Consultants</title>
+    <meta name="description"
+        content="Your Trusted Real Estate Partner in Chennai & Bengaluru. Discover residential & commercial properties with top returns.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                Creovyn<span>Realty</span>
+            </a>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="#featured">Buy</a></li>
+                    <li><a href="#featured">Rent</a></li>
+                    <li><a href="#property-types">Plots</a></li>
+                    <li><a href="#why-invest">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#" class="btn btn-outline">Property Wanted</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>Your Trusted Real Estate Partner in Chennai & Bengaluru</h1>
+            <p>Discover residential & commercial properties with top returns</p>
+            <div class="hero-buttons">
+                <a href="#search" class="btn btn-primary">Search Properties</a>
+                <a href="#contact" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Bar -->
+    <section id="search" class="search-section">
+        <div class="container">
+            <form class="search-bar">
+                <div class="form-group">
+                    <label for="type">Property Type</label>
+                    <select id="type">
+                        <option value="">All Types</option>
+                        <option value="residential">Residential</option>
+                        <option value="commercial">Commercial</option>
+                        <option value="plot">Plot</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="location">Location</label>
+                    <select id="location">
+                        <option value="">All Locations</option>
+                        <option value="chennai">Chennai</option>
+                        <option value="bengaluru">Bengaluru</option>
+                        <option value="hosur">Hosur</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="min-price">Min Price</label>
+                    <select id="min-price">
+                        <option value="">Any</option>
+                        <option value="2000000">₹20 Lakhs</option>
+                        <option value="5000000">₹50 Lakhs</option>
+                        <option value="10000000">₹1 Crore</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="max-price">Max Price</label>
+                    <select id="max-price">
+                        <option value="">Any</option>
+                        <option value="5000000">₹50 Lakhs</option>
+                        <option value="10000000">₹1 Crore</option>
+                        <option value="50000000">₹5 Crores+</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary search-btn">Search</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Property Types -->
+    <section id="property-types" class="section property-types">
+        <div class="container">
+            <h2 class="section-title">Explore Property Types</h2>
+            <div class="types-grid">
+                <a href="#" class="type-card">
+                    <div class="icon">🏠</div>
+                    <h3>Residential</h3>
+                    <span class="link-text">View Listings &rarr;</span>
+                </a>
+                <a href="#" class="type-card">
+                    <div class="icon">📍</div>
+                    <h3>Plot</h3>
+                    <span class="link-text">View Listings &rarr;</span>
+                </a>
+                <a href="#" class="type-card">
+                    <div class="icon">🏡</div>
+                    <h3>Independent Villa</h3>
+                    <span class="link-text">View Listings &rarr;</span>
+                </a>
+                <a href="#" class="type-card">
+                    <div class="icon">🏢</div>
+                    <h3>Flat/Apartment</h3>
+                    <span class="link-text">View Listings &rarr;</span>
+                </a>
+                <a href="#" class="type-card">
+                    <div class="icon">🏙️</div>
+                    <h3>Penthouse</h3>
+                    <span class="link-text">View Listings &rarr;</span>
+                </a>
+                <a href="#" class="type-card">
+                    <div class="icon">🏭</div>
+                    <h3>Industrial Land</h3>
+                    <span class="link-text">View Listings &rarr;</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Invest -->
+    <section id="why-invest" class="section why-invest">
+        <div class="container">
+            <h2 class="section-title">Why Invest with Creovyn?</h2>
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <h3>High Growth Corridors</h3>
+                    <p>We identify properties in rapidly developing areas of Chennai and Bengaluru to ensure maximum
+                        appreciation.</p>
+                </div>
+                <div class="reason-card">
+                    <h3>Trusted Documentation</h3>
+                    <p>100% clear titles and legal verification. We handle all the paperwork so you can invest with
+                        peace of mind.</p>
+                </div>
+                <div class="reason-card">
+                    <h3>Complete Service</h3>
+                    <p>From initial site visits to final registration and post-purchase support, we are with you every
+                        step of the way.</p>
+                </div>
+                <div class="reason-card">
+                    <h3>Tailored for Investors</h3>
+                    <p>Expert advice customized for investors looking for rental yield, capital gains, or long-term
+                        wealth creation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Listings -->
+    <section id="featured" class="section featured-listings">
+        <div class="container">
+            <h2 class="section-title">Featured Listings</h2>
+            <div id="listings-container" class="listings-grid">
+                <!-- Listings will be dynamically inserted here by script.js -->
+                <!-- Fallback/Loading content -->
+                <p>Loading properties...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Get Expert Investment Advice Today</h2>
+            <p>Call us: +91 6381379769 | Email: ajairaajvinayak@gmail.com</p>
+            <a href="#contact" class="btn btn-gold">Schedule Free Consultation</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>Creovyn Realty</h3>
+                <p>Premium Property Investment Consultants.</p>
+                <div class="social-icons">
+                    <a href="#">FB</a>
+                    <a href="#">IG</a>
+                    <a href="#">YT</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Buy</a></li>
+                    <li><a href="#">Rent</a></li>
+                    <li><a href="#">Plots</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="admin_login.html">Admin Login</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>Chennai | Hosur | Bengaluru</p>
+                <p>+91 6381379769</p>
+                <p>ajairaajvinayak@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Creovyn Realty. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Property Details Modal -->
+    <div id="property-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-grid">
+                <div class="modal-image-section">
+                    <img id="modal-image" src="" alt="Property Image">
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#" class="btn btn-outline">Property Wanted</a></li>
+                    </ul>
+                    </nav>
+                </div>
+                </header>
+
+                <!-- Hero Section -->
+                <section class="hero">
+                    <div class="hero-overlay"></div>
+                    <div class="container hero-content">
+                        <h1>Your Trusted Real Estate Partner in Chennai & Bengaluru</h1>
+                        <p>Discover residential & commercial properties with top returns</p>
+                        <div class="hero-buttons">
+                            <a href="#search" class="btn btn-primary">Search Properties</a>
+                            <a href="#contact" class="btn btn-secondary">Contact Us</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Search Bar -->
+                <section id="search" class="search-section">
+                    <div class="container">
+                        <form class="search-bar">
+                            <div class="form-group">
+                                <label for="type">Property Type</label>
+                                <select id="type">
+                                    <option value="">All Types</option>
+                                    <option value="residential">Residential</option>
+                                    <option value="commercial">Commercial</option>
+                                    <option value="plot">Plot</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="location">Location</label>
+                                <select id="location">
+                                    <option value="">All Locations</option>
+                                    <option value="chennai">Chennai</option>
+                                    <option value="bengaluru">Bengaluru</option>
+                                    <option value="hosur">Hosur</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="min-price">Min Price</label>
+                                <select id="min-price">
+                                    <option value="">Any</option>
+                                    <option value="2000000">₹20 Lakhs</option>
+                                    <option value="5000000">₹50 Lakhs</option>
+                                    <option value="10000000">₹1 Crore</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="max-price">Max Price</label>
+                                <select id="max-price">
+                                    <option value="">Any</option>
+                                    <option value="5000000">₹50 Lakhs</option>
+                                    <option value="10000000">₹1 Crore</option>
+                                    <option value="50000000">₹5 Crores+</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary search-btn">Search</button>
+                        </form>
+                    </div>
+                </section>
+
+                <!-- Property Types -->
+                <section id="property-types" class="section property-types">
+                    <div class="container">
+                        <h2 class="section-title">Explore Property Types</h2>
+                        <div class="types-grid">
+                            <a href="#" class="type-card">
+                                <div class="icon">🏠</div>
+                                <h3>Residential</h3>
+                                <span class="link-text">View Listings &rarr;</span>
+                            </a>
+                            <a href="#" class="type-card">
+                                <div class="icon">📍</div>
+                                <h3>Plot</h3>
+                                <span class="link-text">View Listings &rarr;</span>
+                            </a>
+                            <a href="#" class="type-card">
+                                <div class="icon">🏡</div>
+                                <h3>Independent Villa</h3>
+                                <span class="link-text">View Listings &rarr;</span>
+                            </a>
+                            <a href="#" class="type-card">
+                                <div class="icon">🏢</div>
+                                <h3>Flat/Apartment</h3>
+                                <span class="link-text">View Listings &rarr;</span>
+                            </a>
+                            <a href="#" class="type-card">
+                                <div class="icon">🏙️</div>
+                                <h3>Penthouse</h3>
+                                <span class="link-text">View Listings &rarr;</span>
+                            </a>
+                            <a href="#" class="type-card">
+                                <div class="icon">🏭</div>
+                                <h3>Industrial Land</h3>
+                                <span class="link-text">View Listings &rarr;</span>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Why Invest -->
+                <section id="why-invest" class="section why-invest">
+                    <div class="container">
+                        <h2 class="section-title">Why Invest with Creovyn?</h2>
+                        <div class="reasons-grid">
+                            <div class="reason-card">
+                                <h3>High Growth Corridors</h3>
+                                <p>We identify properties in rapidly developing areas of Chennai and Bengaluru to ensure
+                                    maximum
+                                    appreciation.</p>
+                            </div>
+                            <div class="reason-card">
+                                <h3>Trusted Documentation</h3>
+                                <p>100% clear titles and legal verification. We handle all the paperwork so you can
+                                    invest with
+                                    peace of mind.</p>
+                            </div>
+                            <div class="reason-card">
+                                <h3>Complete Service</h3>
+                                <p>From initial site visits to final registration and post-purchase support, we are with
+                                    you every
+                                    step of the way.</p>
+                            </div>
+                            <div class="reason-card">
+                                <h3>Tailored for Investors</h3>
+                                <p>Expert advice customized for investors looking for rental yield, capital gains, or
+                                    long-term
+                                    wealth creation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Featured Listings -->
+                <section id="featured" class="section featured-listings">
+                    <div class="container">
+                        <h2 class="section-title">Featured Listings</h2>
+                        <div id="listings-container" class="listings-grid">
+                            <!-- Listings will be dynamically inserted here by script.js -->
+                            <!-- Fallback/Loading content -->
+                            <p>Loading properties...</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- CTA Section -->
+                <section class="cta-section">
+                    <div class="container">
+                        <h2>Get Expert Investment Advice Today</h2>
+                        <p>Call us: +91 6381379769 | Email: ajairaajvinayak@gmail.com</p>
+                        <a href="#contact" class="btn btn-gold">Schedule Free Consultation</a>
+                    </div>
+                </section>
+
+                <!-- Footer -->
+                <footer id="contact" class="footer">
+                    <div class="container footer-content">
+                        <div class="footer-col">
+                            <h3>Creovyn Realty</h3>
+                            <p>Premium Property Investment Consultants.</p>
+                            <div class="social-icons">
+                                <a href="#">FB</a>
+                                <a href="#">IG</a>
+                                <a href="#">YT</a>
+                            </div>
+                        </div>
+                        <div class="footer-col">
+                            <h3>Quick Links</h3>
+                            <ul>
+                                <li><a href="#">Buy</a></li>
+                                <li><a href="#">Rent</a></li>
+                                <li><a href="#">Plots</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="admin_login.html">Admin Login</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h3>Contact</h3>
+                            <p>Chennai | Hosur | Bengaluru</p>
+                            <p>+91 6381379769</p>
+                            <p>ajairaajvinayak@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <p>&copy; 2024 Creovyn Realty. All rights reserved.</p>
+                    </div>
+                </footer>
+
+                <!-- Property Details Modal -->
+                <div id="property-modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close-modal">&times;</span>
+                        <div class="modal-grid">
+                            <div class="modal-image-section">
+                                <img id="modal-image" src="" alt="Property Image">
+                            </div>
+                            <div class="modal-details">
+                                <div class="modal-info">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Popup Modal -->
+                <div id="contact-popup" class="modal">
+                    <div class="modal-content" style="max-width: 500px;">
+                        <span class="close-contact-popup"
+                            style="position: absolute; top: 1rem; right: 1rem; font-size: 2rem; cursor: pointer; background: var(--white); width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; z-index: 10;">&times;</span>
+                        <div style="padding: 3rem 2rem; text-align: center;">
+                            <h2 style="color: var(--primary-green); margin-bottom: 1.5rem;">📞 Contact Us</h2>
+                            <p style="color: var(--text-light); margin-bottom: 2rem;">Get in touch with us for more
+                                details about this property</p>
+
+                            <div
+                                style="background: var(--light-gray); padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem;">
+                                <div style="margin-bottom: 1.5rem;">
+                                    <div style="font-size: 2rem; margin-bottom: 0.5rem;">📱</div>
+                                    <p style="font-weight: 600; color: var(--text-dark); margin-bottom: 0.25rem;">Phone
+                                    </p>
+                                    <a href="tel:+916381379769"
+                                        style="color: var(--primary-green); font-size: 1.25rem; font-weight: 700;">+91
+                                        6381379769</a>
+                                </div>
+
+                                <div style="border-top: 2px solid var(--border-color); padding-top: 1.5rem;">
+                                    <div style="font-size: 2rem; margin-bottom: 0.5rem;">📧</div>
+                                    <p style="font-weight: 600; color: var(--text-dark); margin-bottom: 0.25rem;">Email
+                                    </p>
+                                    <a href="mailto:ajairaajvinayak@gmail.com"
+                                        style="color: var(--primary-green); font-size: 1.1rem; font-weight: 600; word-break: break-all;">ajairaajvinayak@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <p style="color: var(--text-light); font-size: 0.9rem; margin-top: 1.5rem;">We're available
+                                24/7 to assist you!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <script src="script.js"></script>
+</body>
+
+</html>
