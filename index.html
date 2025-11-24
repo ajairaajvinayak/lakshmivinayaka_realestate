@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshmi Vinayaka Properties | Premium Property Investment Consultants</title>
+    <meta name="description"
+        content="Your Trusted Real Estate Partner in Chennai & Bengaluru. Discover residential & commercial properties with top returns.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                Lakshmi Vinayaka<span>Properties</span>
+            </a>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="#featured">Buy</a></li>
+                    <li><a href="#featured">Rent</a></li>
+                    <li><a href="#property-types">Plots</a></li>
+                    <li><a href="#why-invest">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><button class="btn btn-primary" onclick="location.href='admin_login.html'">Admin Login</button>
+                    </li>
+                    <li><a href="#sell-property" class="btn btn-outline">Sell Property</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>Your Trusted Real Estate Partner in Chennai & Bengaluru</h1>
+            <p>Discover residential & commercial properties with top returns</p>
+            <div class="hero-buttons">
+                <a href="#search" class="btn btn-primary">Search Properties</a>
+                <a href="#contact" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Bar -->
+    <section id="search" class="search-section">
+        <div class="container">
+            <form class="search-bar">
+                <div class="form-group">
+                    <label for="type">Property Type</label>
+                    <select id="type">
+                        <option value="">All Types</option>
+                        <option value="residential">Residential</option>
+                        <option value="commercial">Commercial</option>
+                        <option value="plot">Plot</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="location">Location</label>
+                    <select id="location">
+                        <option value="">All Locations</option>
+                        <option value="chennai">Chennai</option>
+                        <option value="bengaluru">Bengaluru</option>
+                        <option value="hosur">Hosur</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="min-price">Min Price</label>
+                    <select id="min-price">
+                        <option value="">Any</option>
+                        <option value="2000000">₹20 Lakhs</option>
+                        <option value="5000000">₹50 Lakhs</option>
+                        <option value="10000000">₹1 Crore</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="max-price">Max Price</label>
+                    <select id="max-price">
+                        <option value="">Any</option>
+                        <option value="5000000">₹50 Lakhs</option>
+                        <option value="10000000">₹1 Crore</option>
+                        <option value="50000000">₹5 Crores+</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary search-btn">Search</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Property Types -->
+    <section id="property-types" class="section property-types">
+        <div class="container">
+            <h2 class="section-title">Explore Property Types</h2>
+            <div class="types-grid">
+                <a href="#" class="type-card">
+                    <div class="icon">🏠</div>
+                    <h3>Residential</h3>
+                    <span class="link-text">View Listings &rarr;</span>
+                </a>
+                <a href="#" class="type-card">
+                    <div class="icon">📍</div>
+                    <h3>Plot</h3>
+                    <span class="link-text">View Listings &rarr;</span>
+                </a>
+                <a href="#" class="type-card">
+                    <div class="icon">🏡</div>
+                    <h3>Independent Villa</h3>
+                    <span class="link-text">View Listings &rarr;</span>
+                </a>
+                <a href="#" class="type-card">
+                    <div class="icon">🏢</div>
+                    <h3>Flat/Apartment</h3>
+                    <span class="link-text">View Listings &rarr;</span>
+                </a>
+                <a href="#" class="type-card">
+                    <div class="icon">🏙️</div>
+                    <h3>Penthouse</h3>
+                    <span class="link-text">View Listings &rarr;</span>
+                </a>
+                <a href="#" class="type-card">
+                    <div class="icon">🏭</div>
+                    <h3>Industrial Land</h3>
+                    <span class="link-text">View Listings &rarr;</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Invest -->
+    <section id="why-invest" class="section why-invest">
+        <div class="container">
+            <h2 class="section-title">Why Invest with Lakshmi Vinayaka Properties?</h2>
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <h3>High Growth Corridors</h3>
+                    <p>We identify properties in rapidly developing areas of Chennai and Bengaluru to ensure maximum
+                        appreciation.</p>
+                </div>
+                <div class="reason-card">
+                    <h3>Trusted Documentation</h3>
+                    <p>100% clear titles and legal verification. We handle all the paperwork so you can invest with
+                        peace of mind.</p>
+                </div>
+                <div class="reason-card">
+                    <h3>Complete Service</h3>
+                    <p>From initial site visits to final registration and post-purchase support, we are with you every
+                        step of the way.</p>
+                </div>
+                <div class="reason-card">
+                    <h3>Tailored for Investors</h3>
+                    <p>Expert advice customized for investors looking for rental yield, capital gains, or long-term
+                        wealth creation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Listings -->
+    <section id="featured" class="section featured-listings">
+        <div class="container">
+            <h2 class="section-title">Featured Listings</h2>
+            <div id="listings-container" class="listings-grid">
+                <!-- Listings will be dynamically inserted here by script.js -->
+                <p>Loading properties...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Get Expert Investment Advice Today</h2>
+            <p>Call us: +91 6381379769 | Email: ajairaajvinayak@gmail.com</p>
+            <a href="#contact" class="btn btn-gold">Schedule Free Consultation</a>
+        </div>
+    </section>
+
+    <!-- Sell Your Property Section -->
+    <section id="sell-property" class="section sell-property-section">
+        <div class="container">
+            <h2 class="section-title">Want to Sell Your Property?</h2>
+            <p style="text-align: center; max-width: 700px; margin: 0 auto 3rem; color: var(--text-light);">
+                List your property with us and reach thousands of potential buyers. We provide complete support from
+                listing to closing the deal.
+            </p>
+
+            <div class="sell-property-container">
+                <div class="sell-property-benefits">
+                    <h3>Why Sell With Us?</h3>
+                    <div class="benefit-item">
+                        <span class="benefit-icon">🎯</span>
+                        <div>
+                            <h4>Wide Buyer Network</h4>
+                            <p>Access to thousands of verified buyers actively looking for properties</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-icon">💰</span>
+                        <div>
+                            <h4>Best Market Price</h4>
+                            <p>Get the best value for your property with our expert pricing strategy</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-icon">⚡</span>
+                        <div>
+                            <h4>Quick Sale</h4>
+                            <p>Fast-track your property sale with our efficient process</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-icon">📋</span>
+                        <div>
+                            <h4>Complete Documentation</h4>
+                            <p>We handle all legal paperwork and documentation hassle-free</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sell-property-form-container">
+                    <form id="sell-property-form" class="sell-property-form">
+                        <h3>Submit Your Property Details</h3>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="seller-name">Your Name *</label>
+                                <input type="text" id="seller-name" required placeholder="Enter your full name">
+                            </div>
+                            <div class="form-group">
+                                <label for="seller-phone">Phone Number *</label>
+                                <input type="tel" id="seller-phone" required placeholder="+91 XXXXXXXXXX">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="seller-email">Email</label>
+                                <input type="email" id="seller-email" placeholder="your@email.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="property-type-sell">Property Type *</label>
+                                <select id="property-type-sell" required>
+                                    <option value="">Select Type</option>
+                                    <option value="Residential">Residential</option>
+                                    <option value="Commercial">Commercial</option>
+                                    <option value="Plot">Plot</option>
+                                    <option value="Villa">Villa</option>
+                                    <option value="Apartment">Apartment</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="property-location-sell">Property Location *</label>
+                            <input type="text" id="property-location-sell" required
+                                placeholder="e.g., Anna Nagar, Chennai">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="property-size-sell">Property Size (sq.ft) *</label>
+                                <input type="number" id="property-size-sell" required placeholder="e.g., 1200">
+                            </div>
+                            <div class="form-group">
+                                <label for="expected-price">Expected Price (₹) *</label>
+                                <input type="number" id="expected-price" required placeholder="e.g., 5000000">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="property-description">Property Description</label>
+                            <textarea id="property-description" rows="4"
+                                placeholder="Tell us more about your property..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Property
+                            Details</button>
+                        <p style="font-size: 0.85rem; color: var(--text-light); margin-top: 1rem; text-align: center;">
+                            Our team will contact you within 24 hours
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>Lakshmi Vinayaka Properties</h3>
+                <p>Premium Property Investment Consultants.</p>
+                <div class="social-icons">
+                    <a href="#">FB</a>
+                    <a href="#">IG</a>
+                    <a href="#">YT</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Buy</a></li>
+                    <li><a href="#">Rent</a></li>
+                    <li><a href="#">Plots</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="admin_login.html">Admin Login</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>Chennai | Hosur | Bengaluru</p>
+                <p>+91 6381379769</p>
+                <p>ajairaajvinayak@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Lakshmi Vinayaka Properties. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Property Details Modal -->
+    <div id="property-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-grid">
+                <div class="modal-image-section">
+                    <img id="modal-image" src="" alt="Property Image">
+                </div>
+                <div class="modal-details">
+                    <div class="modal-info">
+                        <h2 id="modal-title">Property Title</h2>
+                        <p id="modal-price" class="listing-price">Price</p>
+                        <p id="modal-location" class="listing-location">Location</p>
+                        <p id="modal-type">Type: Residential</p>
+                        <p id="modal-size" style="color: var(--text-light); margin-bottom: 0.5rem;">📏 Size: N/A</p>
+                        <p id="modal-facing" style="color: var(--text-light); margin-bottom: 1rem;">🧭 Facing: N/A</p>
+                        <p style="margin-top: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <button class="btn btn-primary" id="enquire-now-btn"
+                            style="margin-top: 1.5rem; border: none; cursor: pointer;">Enquire Now</button>
+                    </div>
+                    <div class="modal-map">
+                        <h3>Location Map</h3>
+                        <iframe id="modal-map" width="100%" height="300" frameborder="0"
+                            style="border:0; border-radius: 8px;" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Popup Modal -->
+    <div id="contact-popup" class="modal">
+        <div class="modal-content" style="max-width: 500px;">
+            <span class="close-contact-popup"
+                style="position: absolute; top: 1rem; right: 1rem; font-size: 2rem; cursor: pointer; background: var(--white); width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; z-index: 10;">&times;</span>
+            <div style="padding: 3rem 2rem; text-align: center;">
+                <h2 style="color: var(--primary-green); margin-bottom: 1.5rem;">📞 Contact Us</h2>
+                <p style="color: var(--text-light); margin-bottom: 2rem;">Get in touch with us for more details about
+                    this property</p>
+
+                <div style="background: var(--light-gray); padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem;">
+                    <div style="margin-bottom: 1.5rem;">
+                        <div style="font-size: 2rem; margin-bottom: 0.5rem;">📱</div>
+                        <p style="font-weight: 600; color: var(--text-dark); margin-bottom: 0.25rem;">Phone</p>
+                        <a href="tel:+916381379769"
+                            style="color: var(--primary-green); font-size: 1.25rem; font-weight: 700;">+91
+                            6381379769</a>
+                    </div>
+
+                    <div style="border-top: 2px solid var(--border-color); padding-top: 1.5rem;">
+                        <div style="font-size: 2rem; margin-bottom: 0.5rem;">📧</div>
+                        <p style="font-weight: 600; color: var(--text-dark); margin-bottom: 0.25rem;">Email</p>
+                        <a href="mailto:ajairaajvinayak@gmail.com"
+                            style="color: var(--primary-green); font-size: 1.1rem; font-weight: 600; word-break: break-all;">ajairaajvinayak@gmail.com</a>
+                    </div>
+                </div>
+
+                <p style="color: var(--text-light); font-size: 0.9rem; margin-top: 1.5rem;">We're available 24/7 to
+                    assist you!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
